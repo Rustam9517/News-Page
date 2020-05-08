@@ -1,0 +1,1300 @@
+    body {
+	background: url('img/bg.jpg') repeat-y center top/cover;
+}
+#container {
+	max-width: 1144px;
+	margin: auto;
+	background: #e1e1e1;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	background: #ededed;
+}
+#logo{
+	margin:  28px auto;
+}
+header nav {
+	display: flex;
+	justify-content: center;
+
+}
+nav ul{
+	display: flex;
+	flex-direction: column;
+}
+
+nav ul a{
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	padding: 1px 5px 1px 5px;
+	font-size: 1em;
+	letter-spacing: -1px;
+	color: #888888;
+	font-family: "Bebas Neue";
+	border: 1px solid #fff;
+	border: 0;
+	margin-bottom: 5px;
+}
+
+nav ul a:hover {
+	border: 0;
+	color: #fff;
+	background: rgb(169,3,33);
+	 background: linear-gradient(to right, rgba(169,3,33,1) 0%,rgba(110,0,20,1) 0%,rgba(158,56,61,1) 7%,rgba(203,73,73,1) 14%,rgba(203,73,73,1) 55%,        rgba(203,73,73,1) 86%,rgba(158,61,56,1) 94%,rgba(144,2,28,1)                                        100%,rgba(144,2,28,1) 100%);
+}
+#slide{
+	display: flex;
+	flex-direction: column;
+ 	border-top: 5px solid #fff;
+}
+#zagl{
+	 display: flex;
+	 flex-direction: column;
+	 padding: 20px 0 0 0;
+}
+#zagl h2{
+	background: #181e21;
+	width: 100%;
+	height: auto;
+	font-size: 1.9em;
+	letter-spacing: -1px;
+	color: #ffffff;
+	font-family: "Bebas Neue";
+}
+#zagl p{
+	border-right: 10px solid #fff;
+	height: auto;
+	background: #cb4949;
+	padding-top: 20px;
+	padding-right: 10px;
+	font-size: 3em;
+	letter-spacing: -3px;
+	color: #ffffff;
+	font-family: "Bebas Neue";
+}
+#zagl sup{
+	padding: 0;
+	font-size: .5em;
+	vertical-align: super;
+	letter-spacing: -1px;
+	color: #ffffff;
+	font-family: "Bebas Neue";
+}
+#zagl h3{
+	padding: 14px 0 14px 0;
+	text-align: center;
+	margin-top: 10px;
+	background: #181e21;
+	width: 100%;
+	height: auto;
+	font-size: 1.3em;
+	letter-spacing: -1px;
+	color: #ffffff;
+	font-family: "Titillium Text25 L";
+}
+#late{
+	display: flex;
+	flex-direction: row;
+}
+#sideb{
+	display: flex;
+	flex-direction: column;
+	margin: 10px auto 10px auto;
+	background: #757778;
+}
+#sideb a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 18px;
+	width: 155px;
+	height: 106px;
+	background: #262b2e;
+}
+#sideb a div{
+	display: flex;
+	width: 120px;
+	height: 90px;
+	padding: 8px;
+	background: #282f33;
+}
+#sideb a:hover{
+	background: #fff;
+}
+.strelki{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 22px;
+}
+.strelki button{
+	margin-left: 10px;
+	padding: 10px;
+	border: 0;
+	outline: 0;
+	background-color: #fff;
+	cursor: pointer;
+}
+.strelki button:hover{
+	background-color: #cb4949;
+}
+#carusel{
+	display: flex;
+	flex-direction:column;
+	background: #0e1114;
+}
+#carusel button{
+	display: none;
+}
+.card{
+	position: relative;
+	padding: 28px 0 28px 0;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+}
+.card a{
+	width: 140px;
+	height: 90px;
+	margin: auto;
+	border: 5px solid #1e262a;
+	background: #141a1d;
+
+}
+.card a:hover{
+	border: 5px solid #cb4949;
+}
+.card-body{
+	flex: 1 1 auto;
+	padding-top: 10px;
+	background: none;
+	width: 140px;
+	margin: auto;
+	background: none;
+}
+.card-body a{
+	border: none;
+	background: none;
+	text-decoration: none;
+	font-size: .7em;
+	line-height: 18px;
+	color: #fff;
+	font-family: "Titillium Text25 L";
+}
+.card-body a:hover{
+	border: none;
+	color: #636b6f;
+}
+.card-body hr{
+	outline: none;
+	border: 1px solid #1f2629;
+}
+.card-body p{
+	float: left;
+	width: 50%;
+	font-size: 12px;
+	letter-spacing: 0px;
+	line-height: 21px;
+	color: #ffffff;
+	font-family: "Titillium Text25 L";
+}
+#hotnews{
+	margin-top: 20px;
+}
+.tabs{
+	margin: -65px 0 30px 0;
+}
+.tabs h1{
+	max-width: 250px;
+	max-height: 48px;
+	font-size: 2.5em;
+	letter-spacing: -1px;
+	color: #ffffff;
+	font-family: "Bebas Neue";
+	background: #cc4949;
+	text-align: center;
+}
+	}
+.text{
+	display: flex;
+	flex-direction: row;
+}
+.text h1{
+	max-width: 296px;
+	max-height: 106px;
+	font-size: 1.3em;
+	letter-spacing: -1px;
+	background: #cc4949;
+	color: #ffffff;
+	font-family: "Bebas Neue";
+	cursor: pointer;
+}
+.text h1:hover{
+	background: #232b2f;
+}
+.text p{
+	margin: auto;
+	max-width: 312px;
+	max-height: 203px;
+	font-size: .9em;
+	letter-spacing: 0px;
+	line-height: 21px;
+	color: #515151;
+	font-family: "Titillium Text25 L";
+}
+.text hr{
+	width: 80%;
+}
+#hot{
+	padding-right: 15px;
+}
+#hot h1{
+	margin-top: 10px;
+}
+#hot a{
+	text-decoration: none;
+}
+#hot a div{
+	margin: auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	background: #eeeeee;
+	max-width: 315px;
+	height: 185px;
+}
+#hot a div p{
+	padding: 5px;
+	font-size: 1.3em;
+	letter-spacing: -1px;
+	color: #ffffff;
+	font-family: "Titillium Text25 L";
+	background: #363e41;
+}
+#search{
+	margin-top: 20px;
+}
+.tabs h2{
+	max-width: 257px;
+	max-height: 48px;
+	font-size: 2.2em;
+	letter-spacing: -1px;
+	color: #ffffff;
+	font-family: "Bebas Neue";
+	background: #232b2f;
+	text-align: center;
+	padding:3px 5px 0 5px;
+	text-transform: uppercase;
+}
+#search input{
+	background: #efefef;
+	border: 1px solid #cccccc;
+	padding: 10px 40px 10px 10px;
+}
+#search button{
+	padding: 10px;
+	background: #e7e7e7;
+	border: 1px solid #cccccc;
+	outline: none;
+	cursor: pointer;
+}
+.most{
+	display: flex;
+}
+.most h1{
+	padding: 21px 10px 0 0;
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 21px;
+	color: #cc4949;
+	font-family: "Bebas Neue";
+}
+.most a{
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 0px;
+	line-height: 21px;
+	color: #515151;
+	font-family: "Titillium Text25 L";
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+.most a:hover{
+	color: #cb4949;
+}
+.most p{
+	padding-top: 5px;
+}
+
+#touch{
+	display: flex;
+	justify-content: space-around;
+}
+.social a{
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	padding-bottom: 18px;
+}
+.social a i{
+	background: #e3e3e3;
+	padding: 25px;
+	color: #bebebe;
+}
+.social a i:hover{
+	background-color: #cb4949;
+}
+.numbers{
+	max-width: 105px;
+	font-size: 1.3em;
+	letter-spacing: 0px;
+	color: #919191;
+	font-family: "Titillium Text25 L";
+	text-align: center;
+}
+.social p{
+	max-width: 105px;
+	font-size: .7em;
+	letter-spacing: 0px;
+	color: #acacac;
+	font-weight: bold;
+	font-family: "Titillium Text25 L";
+	text-align: center;
+}
+#date{
+	display: none;
+}
+#omgg{
+	display: flex;
+	justify-content: center;
+}
+#lurk{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#tags{
+	display: none;
+}
+#tags div a{
+	text-decoration: none;
+	background: #f1f1f1;
+	margin: 5px;
+	font-size: .9em;
+	letter-spacing: 0px;
+	line-height: 18px;
+	color: #494f53;
+	font-family: "Titillium Text25 L";
+}
+#tags div a:hover{
+	background: #cb4949;
+	color: #fff;
+}
+#ads{
+	display: none;
+}
+#business{
+	height: 100%;
+	margin: 0;
+}
+.bus{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.angry h1{
+	max-width: 296px;
+	max-height: 106px;
+	font-size: 1.2em;
+	letter-spacing: -1px;
+	background: #cc4949;
+	color: #ffffff;
+	font-family: "Bebas Neue";
+	margin-top: 5px;
+	cursor: pointer;
+}
+.angry h1:hover{
+	background: #232b2f;
+}
+.angry p{
+	padding-top: 15px;
+}
+.angry a{
+	text-decoration: none;
+	padding: 5px;
+}
+.angry a div{
+	margin: auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	background: #eeeeee;
+	max-width: 315px;
+	height: 185px;
+}
+.angry a div p{
+	padding: 5px;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	letter-spacing: -1px;
+	color: #ffffff;
+	font-family: "Titillium Text25 L";
+	background: #363e41;
+}
+.obama a{
+	max-width: 210px;
+	max-height: 169px;
+	font-size: .8em;
+	letter-spacing: 0px;
+	line-height: 21px;
+	color: #242b2f;
+	font-family: "Titillium Text25 L";
+	text-decoration: none;
+}
+.obama a:hover{
+	color: #cc4949;
+}
+.obama p{
+	font-size: .7em;
+	letter-spacing: 0px;
+	line-height: 21px;
+	color: #8c8c8c;
+	font-family: "Titillium Text25 L";
+	text-align: center;
+}
+.Iran{
+	width: 70px;
+	height: 45px;
+	background: #9d9d9d;
+	border: 3px solid #dbdbdb;
+	float: left;
+	margin-right: 10px;
+}
+#sprt{
+	display: flex;
+	flex-direction: column;
+}
+#sprt div{
+	padding-bottom: 40px;
+}
+#sprt div:last-child{
+	padding: 0;
+}
+#sprt .Iran{
+	width: 135px;
+	height: 75px;
+}
+#sprt a{
+	text-decoration: none;
+}
+#sprt h3{
+	background: #cb4949;
+	font-size: 1.3em;
+	letter-spacing: -1px;
+	color: #ffffff;
+	font-family: "Bebas Neue";
+}
+#sprt h3:hover{
+	background: #232b2f;
+}
+#sprt h4{
+	font-size: .8em;
+	letter-spacing: 0px;
+	line-height: 21px;
+	color: #515151;
+	font-family: "Titillium Text25 L";
+}
+#vids{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#vids div{
+	background: #eeeeee;
+	margin: 10px;
+}
+#nav{
+	display: flex;
+	flex-direction: column;
+	background: #13171b;
+	padding: 18px;
+}
+#nav ul{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	text-align: center;
+
+}
+#nav ul a{
+	text-decoration: none;
+	font-size: 1.3em;
+	letter-spacing: -1px;
+	color: #888888;
+	font-family: "Bebas Neue";
+}
+#nav ul a:hover{
+	color: #fff;
+}
+#srchtool{
+	margin: auto;
+	padding-top: 10px;
+}
+#srchtool input{
+	padding: 15px 15px 15px 15px;
+	background: #1e2428;
+	border: none;
+	outline: none;
+}
+#srchtool button{
+	background: #cb4949;
+	border: none;
+	outline: none;
+	padding: 15px 25px 15px 15px;
+	cursor: pointer;
+	font-size: 14px;
+	color: #ffffff;
+	font-family: "Titillium Text25 L";
+}
+#footside{
+	width: 100%;
+	background: #1b2024;
+	padding: 54px 0 54px 0;
+}
+#fs{
+	display: flex;
+	flex-direction: column;
+}
+#fs .tabs{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+#fs .tabs h2{
+	font-size: 1.8em;
+}
+#footside a{
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 21px;
+	color: #4d5a62;
+	font-family: "Titillium Text25 L";
+}
+#footside p{
+	padding-top: 15px;
+	font-size: .9em;
+	color: #465259;
+	font-family: "Titillium Text25 L";
+}
+#fs-1{
+	text-align: center;
+}
+#fs-1 a i{
+	margin-top: 20px;
+	padding: 18px;
+	color: #fff;
+	background: #161b1e;
+}
+#fs-1 a i:hover{
+	background: #cb4949;
+}
+#fs-2{
+	text-align: center;
+}
+#fs-2 a:hover{
+	color: #FFF;
+}
+#fs-3{
+	text-align: center;
+}
+#fs-3 a:hover{
+	color: #FFF;
+}
+#copyright{
+	background: #14181b;
+}
+#copyright p{
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 21px;
+	color: #96a0a6;
+	font-family: "Titillium Text25 L";
+}
+main {
+	display: grid;
+	grid-template-areas: 'hn' 'bn' 'et' 'sp' 'hv' 'sc' 'tn' 'as';
+	grid-gap: 100px 28px;
+	padding: 28px;
+}
+main section, aside section {
+	background: #fff;
+	padding: 26px;
+	border-bottom: 1px solid #ccc;
+}
+main section:hover {
+	box-shadow: 0 0 20px #aaa;
+}
+#hotnews { grid-area: hn;}
+#business { grid-area: bn;}
+#entertainment { grid-area: et;}
+#sports { grid-area: sp;}
+#hotvideos { grid-area: hv;}
+#science { grid-area: sc;}
+#technology { grid-area: tn;}
+#aside { grid-area: as;}
+
+ aside section {
+ 	max-width: 344px;
+	margin: 0 auto 100px auto;
+ }
+@media only screen and (min-width: 768px) {
+	main {
+		grid-template-areas:'hn hn as'
+							'bn et as'
+							'sp sp as'
+							'hv hv as'
+							'sc tn as';
+		grid-row-gap: 70px;
+	}
+	header{
+		display: flex;
+		flex-direction: row;
+	}
+	#logo{
+		margin: 0;
+		max-width: 360px;
+		padding: 28px;
+	}
+	header nav {
+		display: flex;
+		flex-grow: 1;
+	}
+	nav ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		max-width: 609px;
+
+	}
+
+	nav ul a{
+		display: flex;
+		align-items: center;
+		padding: 65px 15px 72px 15px;
+		border-right: 1px solid #fff;
+		text-decoration: none;
+		font-size: 1em;
+		letter-spacing: -1px;
+		color: #888888;
+		font-family: "Bebas Neue";
+	}
+	nav ul a:first-child{
+		border-right: 1px solid #fff;
+		border-left: 1px solid #fff;
+	}
+	nav ul a:hover {
+		border: 0;
+		color: #fff;
+		background: rgb(169,3,33);
+	    background: linear-gradient(to right, rgba(169,3,33,1) 0%,rgba(110,0,20,1) 0%,rgba(158,56,61,1) 7%,rgba(203,73,73,1) 14%,rgba(203,73,73,1) 55%,rgba(203,73,73,1) 86%,rgba(158,61,56,1) 94%,rgba(144,2,28,1) 100%,rgba(144,2,28,1) 100%);
+	    box-shadow: 0 0 20px #aaa;
+	}
+	#slide{
+	 	display: flex;
+	 	flex-direction: row;
+ 		border-top: 5px solid #fff;
+	}
+	#zagl{
+	 	padding: 335px 0 75px 0;
+	 	flex-grow: 1;
+	}
+	#zagl h2{
+		background: #181e21;
+		padding-left: 28px;
+		width: 495px;
+		height: 88px;
+		font-size: 1.9em;
+		letter-spacing: -1px;
+		color: #ffffff;
+		font-family: "Bebas Neue";
+	}
+	#zagl p{
+		border-right: 10px solid #fff;
+		flex-grow: 1;
+		max-width: 165px;
+		height: 88px;
+		background: #cb4949;
+		padding-top: 20px;
+		padding-right: 10px;
+		font-size: 3em;
+		letter-spacing: -3px;
+		color: #ffffff;
+		font-family: "Bebas Neue";
+	}
+	#zagl sup{
+		padding: 0;
+		font-size: .5em;
+		vertical-align: super;
+		letter-spacing: -1px;
+		color: #ffffff;
+		font-family: "Bebas Neue";
+	}
+
+	#zagl h3{
+		padding: 14px 0 14px 0;
+		text-align: center;
+		margin-top: 10px;
+		background: #181e21;
+		width: 495px;
+		height: 44px;
+		font-size: 1.3em;
+		letter-spacing: -1px;
+		color: #ffffff;
+		font-family: "Titillium Text25 L";
+	}
+	#sideb{
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 8px;
+		background: #757778;
+	}
+	#sideb a{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 18px;
+		width: 155px;
+		height: 106px;
+		background: #262b2e;
+	}
+	#sideb a div{
+		width: 139px;
+		height: 90px;
+		padding: 8px;
+		background: #282f33;
+	}
+	#sideb a:hover{
+		background: #fff;
+	}
+	.strelki{
+		display: flex;
+		justify-content: center;
+		padding-bottom: 22px;
+	}
+	.strelki button{
+		margin-left: 10px;
+		padding: 10px;
+		border: 0;
+		outline: 0;
+		background-color: #fff;
+		cursor: pointer;
+	}
+	.strelki button:hover{
+		background-color: #cb4949;
+	}
+	#carusel{
+		display: flex;
+		flex-direction:row;
+		padding: 26px;
+		background: #0e1114;
+	}
+	#carusel button{
+		display: block !important;
+		width: 65px;
+		height: 90px;
+		border: none;
+		outline: none;
+		margin: auto;
+		align-items: center;
+		font-size: 1.3em;
+		color: #fff;
+		background: #111619;
+		cursor: pointer;
+	}
+	#carusel button:hover{
+		background: #cb4949;
+	}
+	.card{
+	  position: relative;
+	  padding: 28px 0 28px 0;
+	  width: 20%;
+	  text-align: center;
+	  display: flex;
+	  flex-direction: column;
+	  min-width: 0;
+	}
+	.card a{
+		width: 140px;
+		height: 90px;
+		margin: auto;
+		border: 5px solid #1e262a;
+		background: #141a1d;
+
+	}
+	.card a:hover{
+		border: 5px solid #cb4949;
+	}
+	.card-body{
+		flex: 1 1 auto;
+		padding-top: 10px;
+		background: none;
+		width: 140px;
+		margin: auto;
+		background: none;
+	}
+	.card-body a{
+		border: none;
+		background: none;
+		text-decoration: none;
+		font-size: .7em;
+		line-height: 18px;
+		color: #fff;
+		font-family: "Titillium Text25 L";
+	}
+	.card-body a:hover{
+		border: none;
+		color: #636b6f;
+	}
+	.card-body hr{
+		outline: none;
+		border: 1px solid #1f2629;
+	}
+	.card-body p{
+		float: left;
+		width: 50%;
+		font-size: 12px;
+		letter-spacing: 0px;
+		line-height: 21px;
+		color: #ffffff;
+		font-family: "Titillium Text25 L";
+	}
+	#hotnews{
+		height: 100%;
+		max-width: 716px;
+	}
+	.text{
+		display: flex;
+		flex-direction: row;
+	}
+	#hot{
+		padding-right: 15px;
+	}
+	#hot h1{
+		margin-top: 10px;
+	}
+	#hot a{
+		text-decoration: none;
+	}
+	#hot a div{
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+		background: #eeeeee;
+		max-width: 315px;
+		height: 185px;
+	}
+	#hot a div p{
+		padding: 5px;
+		font-size: 1.3em;
+		letter-spacing: -1px;
+		color: #ffffff;
+		font-family: "Titillium Text25 L";
+		background: #363e41;
+	}
+	.text h1{
+		max-width: 296px;
+		max-height: 106px;
+		font-size: 1.3em;
+		letter-spacing: -1px;
+		background: #cc4949;
+		color: #ffffff;
+		font-family: "Bebas Neue";
+		cursor: pointer;
+	}
+	.text h1:hover{
+		background: #232b2f;
+	}
+	.text p{
+		max-width: 312px;
+		max-height: 203px;
+		font-size: .9em;
+		letter-spacing: 0px;
+		line-height: 21px;
+		color: #515151;
+		font-family: "Titillium Text25 L";
+	}
+	.tabs{
+		margin: -65px 0 30px 0;
+	}
+	.tabs h1{
+		text-transform: uppercase;
+		min-width: 184px;
+		max-height: 37px;
+		font-size: 1.8em;
+		padding: 5px 15px 5px 15px;
+		letter-spacing: -1px;
+		color: #ffffff;
+		font-family: "Bebas Neue";
+		background: #cc4949;
+		text-align: center;
+		box-shadow: 0 -10px 10px -10px #ee6464;
+	}
+	#search{
+		display: block;
+		margin-top: 20px;
+	}
+	.tabs h2{
+		max-width: 257px;
+		font-size: 2.0em;
+		color: #ffffff;
+		font-family: "Bebas Neue";
+		background: #232b2f;
+		text-align: center;
+		padding:3px 5px 5px 5px;
+		box-shadow: 0 -10px 10px -10px #39454c;
+	}
+	#search input{
+		background: #efefef;
+		border: 1px solid #cccccc;
+		padding: 25px 25px 25px 25px;
+	}
+	#search button{
+		padding: 25px 25px 25px 10px;
+		background: #e7e7e7;
+		border: 1px solid #cccccc;
+		outline: none;
+		cursor: pointer;
+	}
+	.most{
+		display: flex;
+	}
+	.most h1{
+		padding: 21px 10px 0 0;
+		font-size: 60px;
+		font-weight: bold;
+		line-height: 21px;
+		color: #cc4949;
+		font-family: "Bebas Neue";
+	}
+	.most a{
+		font-size: 1em;
+		font-weight: bold;
+		letter-spacing: 0px;
+		line-height: 21px;
+		color: #515151;
+		font-family: "Titillium Text25 L";
+		text-decoration: none;
+		padding-bottom: 5px;
+	}
+	.most a:hover{
+		color: #cb4949;
+	}
+	.most p{
+		padding-top: 5px;
+	}
+
+	#touch{
+		display: flex;
+		justify-content: space-around;
+	}
+	.social a{
+		display: flex;
+		justify-content: center;
+		text-decoration: none;
+		padding-bottom: 18px;
+	}
+	.social a i{
+		background: #e3e3e3;
+		padding: 25px;
+		color: #bebebe;
+
+	}
+	.social a i:hover{
+		background-color: #cb4949;
+	}
+	.numbers{
+		max-width: 105px;
+		font-size: 1.3em;
+		letter-spacing: 0px;
+		color: #919191;
+		font-family: "Titillium Text25 L";
+		text-align: center;
+	}
+	.social p{
+		max-width: 105px;
+		font-size: .7em;
+		letter-spacing: 0px;
+		color: #acacac;
+		font-weight: bold;
+		font-family: "Titillium Text25 L";
+		text-align: center;
+	}
+	#date{
+		display: block !important;
+	}
+	#calendar{
+		display: flex;
+		justify-content: center;
+	}
+	#ads{
+		display: block !important;
+	}
+	#omgg{
+		display: flex;
+		justify-content: center;
+	}
+	#lurk{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	#tags{
+		display: block !important;
+	}
+	#tags div a{
+		text-decoration: none;
+		background: #f1f1f1;
+		margin: 5px;
+		font-size: .9em;
+		letter-spacing: 0px;
+		line-height: 18px;
+		color: #494f53;
+		font-family: "Titillium Text25 L";
+	}
+	#tags div a:hover{
+		background: #cb4949;
+		color: #fff;
+	}
+	#business{
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		max-width: 344px;
+	}
+	.bus{
+		display: flex;
+		flex-direction: column;
+	}
+	.angry h1{
+		font-size: 1.2em;
+		letter-spacing: -1px;
+		background: #cc4949;
+		color: #ffffff;
+		font-family: "Bebas Neue";
+		margin-top: 5px;
+		cursor: pointer;
+	}
+	.angry h1:hover{
+		background: #232b2f;
+	}
+	.angry p{
+		padding-top: 15px;
+	}
+	.angry a{
+		text-decoration: none;
+	}
+	.angry a div{
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+		background: #eeeeee;
+		max-width: 315px;
+		height: 185px;
+	}
+	.angry a div p{
+		padding: 5px;
+		text-transform: uppercase;
+		font-size: 1.3em;
+		letter-spacing: -1px;
+		color: #ffffff;
+		font-family: "Titillium Text25 L";
+		background: #363e41;
+	}
+	.obama a{
+		max-width: 210px;
+		max-height: 169px;
+		font-size: .8em;
+		letter-spacing: 0px;
+		line-height: 21px;
+		color: #242b2f;
+		font-family: "Titillium Text25 L";
+		text-decoration: none;
+	}
+	.obama a:hover{
+		color: #cc4949;
+	}
+	.obama p{
+		font-size: .7em;
+		letter-spacing: 0px;
+		line-height: 21px;
+		color: #8c8c8c;
+		font-family: "Titillium Text25 L";
+		text-align: left;
+	}
+
+	.Iran{
+		width: 70px;
+		height: 45px;
+		background: #9d9d9d;
+		border: 3px solid #dbdbdb;
+		float: left;
+		margin-right: 10px;
+	}
+	#entertainment{
+		height: 100%;
+		max-width: 344px;
+	}
+	#sports{
+		height: 100%;
+	}
+	#sprt{
+		display: flex;
+		flex-direction: column;
+	}
+	#sprt div{
+		padding-bottom: 40px;
+	}
+	#sprt div:last-child{
+		padding: 0;
+	}
+	#sprt .Iran{
+		width: 135px;
+		height: 75px;
+	}
+	#sprt a{
+		text-decoration: none;
+	}
+	#sprt h3{
+		background: #cb4949;
+		font-size: 1.3em;
+		letter-spacing: -1px;
+		color: #ffffff;
+		font-family: "Bebas Neue";
+	}
+	#sprt h3:hover{
+		background: #232b2f;
+	}
+	#sprt h4{
+		font-size: .8em;
+		letter-spacing: 0px;
+		line-height: 21px;
+		color: #515151;
+		font-family: "Titillium Text25 L";
+	}
+	#hotvideos{
+		height: 95%;
+	}
+	#hotvideos .strelki{
+		display: flex;
+		justify-content: flex-end;
+		margin: -38px 0 30px 0;
+	}
+	#vids{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	#vids div{
+		background: #eeeeee;
+		margin: 10px;
+	}
+	#science{
+		height: 100%;
+		max-width: 344px;
+	}
+	#technology{
+		height: 100%;
+		max-width: 344px;
+	}
+	#nav{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between !important;
+		background: #13171b;
+		padding: 18px;
+	}
+	#nav ul{
+		margin: 0;
+		width: 560px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+
+	}
+	#nav ul a{
+		text-decoration: none;
+		font-size: 1.3em;
+		letter-spacing: -1px;
+		color: #888888;
+		font-family: "Bebas Neue";
+	}
+	#nav ul a:hover{
+		color: #fff;
+	}
+	#srchtool{
+		margin: 0;
+		padding: 0;
+	}
+	#srchtool input{
+		padding: 15px 15px 15px 40px;
+		background: #1e2428;
+		border: none;
+		outline: none;
+	}
+	#srchtool button{
+		background: #cb4949;
+		border: none;
+		outline: none;
+		padding: 15px 25px 15px 15px;
+		cursor: pointer;
+		font-size: 14px;
+		color: #ffffff;
+		font-family: "Titillium Text25 L";
+	}
+	#footside{
+		width: 100%;
+		background: #1b2024;
+		padding: 54px 0 54px 0;
+	}
+	#fs{
+		display: flex;
+		flex-direction: row;
+		max-width: 1088px;
+	}
+	#footside a{
+		text-decoration: none;
+		font-size: 14px;
+		letter-spacing: 0px;
+		line-height: 21px;
+		color: #4d5a62;
+		font-family: "Titillium Text25 L";
+	}
+	#footside p{
+		padding-top: 15px;
+		font-size: .9em;
+		color: #465259;
+		font-family: "Titillium Text25 L";
+	}
+	#fs-1{
+		text-align: center;
+	}
+	#fs-1 a i{
+		margin-top: 20px;
+		padding: 18px;
+		color: #fff;
+		background: #161b1e;
+	}
+	#fs-1 a i:hover{
+		background: #cb4949;
+	}
+
+}
+
+
